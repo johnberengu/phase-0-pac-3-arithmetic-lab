@@ -6,6 +6,52 @@ beforeEach(function() {
   a = Math.floor(Math.random() * 1000)
   b = Math.floor(Math.random() * 1000)
 })
+function add(a,b){
+    return a+b;
+  }
+console.log(add(4,4));
+
+function subtract(a,b){
+  return a-b;
+}
+console.log(subtract(6,4));
+
+function multiply(a,b){
+  return a*b;
+}
+console.log(multiply(2,6));
+
+function divide(a,b){
+  return a/b;
+}
+console.log(divide(3,6));
+
+function increment(n){
+  return a+1
+}
+console.log(increment(a));
+
+function decrement(n){
+  return a-1
+}
+console.log(decrement(a));
+
+function makeInt(n){
+  return parseInt(n)
+}
+console.log(makeInt(10));
+
+function makeInt(n){
+  return parseInt(n,10)
+}
+console.log(makeInt('0x2328'));
+
+function preserveDecimal(n){
+  return parseFloat(n)
+}
+console.log(preserveDecimal('2.222'));
+
+
 
 describe('basic math functions', function () {
   it("'add()' is a valid function", function() {
